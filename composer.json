@@ -1,0 +1,23 @@
+{
+    "name": "persgeek/binance",
+    "description": "Binance",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "helpers.php"
+        ],
+        "psr-4": {
+            "PG\\Binance\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Saeed Johari",
+            "email": "persgeek@gmail.com"
+        }
+    ],
+    "require": {
+        "persgeek/request": "@dev"
+    }
+}
