@@ -8,6 +8,8 @@ class Entity
 
     protected $symbol;
 
+    protected $interval;
+
     public static function instance()
     {
         return new static();
@@ -35,5 +37,17 @@ class Entity
     public function getSymbol()
     {
         return $this->symbol;
+    }
+
+    public function setInterval($interval)
+    {
+        $this->interval = $interval;
+
+        return $this;
+    }
+
+    public function getInterval()
+    {
+        return $this->interval;
     }
 }
